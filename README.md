@@ -72,12 +72,15 @@ Before you try and launch an attack, you will need to download the MITMF module 
 
 This option will allow you to edit the mitmf.conf file and change the IP addresses and domains you wish to DNS spoof:
 
-Select Option 2
+1. Select Option 2
 ```
 2 #> Change DNS records            #Change websites that the target will be redirected to
 ```
-Confirm that you wish to change the file.
-Next, you will need to scroll down to the section where you are able to add your custom domains. It should look like this:
+
+2. Confirm that you wish to change the file.
+
+3. Next, you will need to scroll down to the section where you are able to add your custom domains. It should look like this:
+
 ```
 
          nameservers = 8.8.8.8
@@ -88,6 +91,19 @@ Next, you will need to scroll down to the section where you are able to add your
          *.*.com= xxx.xxx.x.xxx
 
 
+```
+Change the domains and the IP addresses marked "X".
+the * is called a wildcard. This mean that any sub domain that live.com has, it will also be redirected. 
+
+*.*.* will redirect any website the target is travelling to
+
+4. Now press ctrl-s to save and then ctrl-x to close
+
+### Target Information
+
+This option will allow you to add/save a Target for future attacks
+```
+3 #> Target Information            #Save/Change Gateway IP and Target IP for future attacks
 ```
 
 ## Deployment
