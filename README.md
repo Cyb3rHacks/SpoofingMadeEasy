@@ -76,6 +76,19 @@ Select Option 2
 ```
 2 #> Change DNS records            #Change websites that the target will be redirected to
 ```
+Confirm that you wish to change the file.
+Next, you will need to scroll down to the section where you are able to add your custom domains. It should look like this:
+```
+
+         nameservers = 8.8.8.8
+
+         [[[A]]]     # Queries for IPv4 address records
+         *.thesprawl.org= xxx.xxx.x.xxx
+         *.live.com= xxx.xxx.x.xxx
+         *.*.com= xxx.xxx.x.xxx
+
+
+```
 
 ## Deployment
 
