@@ -1,6 +1,6 @@
-# SpoofingMadeEasy
+# SpoofingMadeEasy V.1.0
 
-One Paragraph of project description goes here
+SpoofingMadeEasy is a simple python script that allows begining users to DNS spoof with ease. SpoofingMadeEasy utilizes the DNS module that comes with MITMF (I do NOT take credit for MITMF). This tool is very simple and easy to use as it will ask the user to imput the IP addresses and then conifure the DNS module accordingly. It can store this information for future attacks to make things easier. This script will also carry out the attack for you. 
 
 ## Getting Started
 
