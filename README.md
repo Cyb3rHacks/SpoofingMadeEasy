@@ -110,8 +110,10 @@ If you wish to do this then please select this option:
 ```
 ### Starting the DNS Spoof
 
-1. Select option number 4 and either use the information you saved or, start fresh by adding in new information
-
+1. Select option number 4 and either use the information you saved or, start fresh by adding in new information.
+```
+4 #> Start Spoofing Attack         #Start Spoofing Attack
+```
 2. Input your network interface.
 
 3. The attack will start. Press ctrl-c to quit and you will be bought back to the SpoofingMadeEasy script.
