@@ -27,15 +27,42 @@ $ cd /root/SpoofingMadeEasy
 $ python SpoofingMadeEasy.py
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+You should now be on the homepage for the script:
+```
+   _______     ______ ____  _____   _    _          _____ _  __ _____   
+  / ____\ \   / /  _ \___ \|  __ \ | |  | |   /\   / ____| |/ // ____|  
+| |     \ \_/ /| |_) |__) | |__) | | |__| |  /  \ | |    | ' /| (___    
+| |      \   / |  _ <|__ <|  _  /  |  __  | / /\ \| |    |  <  \___ \   
+| |____   | |  | |_) |__) | | \ \  | |  | |/ ____ \ |____| . \ ____) |  
+ \_____|  |_|  |____/____/|_|  \_\ |_|  |_/_/    \_\_____|_|\_\_____/   
 
-## Running the tests
+#~ Cybersecurity Penetration Testing/Ethical Hacking                    
+#~ SpoofingMadeEasy V.1.0
+#~ Contact: Please contact me if you find any bugs!
+#~ GitHub: https://github.com/Cyb3rHacks
 
-Explain how to run the automated tests for this system
+NOTE: I am not taking credit for MITMF - this is NOT my tool. I am only making it easier for people starting with MIMTF.
 
-### Break down into end to end tests
 
-Explain what these tests test and why
+1 #> Install MITMF                 #Install Man In The Middle Framework
+2 #> Change DNS records            #Change websites that the target will be redirected to
+3 #> Target Information            #Save/Change Gateway IP and Target IP for future attacks
+4 #> Start Spoofing Attack         #Start Spoofing Attack
+5 #> Exit                          #Exit script - back to terminal
+
+
+Please select an option [1-5]:
+
+
+```
+
+## USAGE
+
+Below are some simple examples of what the script is capable of. Please use them as a guild, however, you will easily be able to successfully launch attacks as it is meant for beginners.
+
+### Downlaoding MITMF module
+
+Before you try and launch an attack, you will need to download the MITMF module:
 
 ```
 Give an example
