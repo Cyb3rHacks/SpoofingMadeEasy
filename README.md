@@ -101,14 +101,21 @@ the * is called a wildcard. This mean that any sub domain that live.com has, it 
 
 ### Target Information
 
-This option will allow you to add/save a Target for future attacks
+This option will allow you to add/save a Target for future attacks.
+
+If you wish to do this then please select this option:
+
 ```
 3 #> Target Information            #Save/Change Gateway IP and Target IP for future attacks
 ```
+### Starting the DNS Spoof
 
-## Deployment
+1. Select option number 4 and either use the information you saved or, start fresh by adding in new information
 
-Add additional notes about how to deploy this on a live system
+2. Input your network interface.
+
+3. The attack will start. Press ctrl-c to quit and you will be bought back to the SpoofingMadeEasy script.
+
 
 ## Built With
 
