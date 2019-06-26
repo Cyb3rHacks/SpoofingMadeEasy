@@ -10,15 +10,21 @@ These instructions will get you a copy of the project up and running on your loc
 
 Follow the simple instrutions below to get everything up and running on your local computer.
 
-Downloadning the repository:
+1. Downloadning the repository:
 
 ```
-$ git clone https://github.com/Cyb3rHacks/SpoofingMadeEasy.git```
+$ git clone https://github.com/Cyb3rHacks/SpoofingMadeEasy.git
+```
 
-And repeat
+2. cd Into the direcotory where you cloned the files. For example:
 
 ```
-until finished
+$ cd /root/SpoofingMadeEasy
+```
+
+3. Run the script:
+```
+$ python SpoofingMadeEasy.py
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
