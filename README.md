@@ -62,18 +62,19 @@ Below are some simple examples of what the script is capable of. Please use them
 
 ### Downlaoding MITMF module
 
-Before you try and launch an attack, you will need to download the MITMF module:
+Before you try and launch an attack, you will need to download the MITMF module so select option 1:
 
 ```
-Give an example
+1 #> Install MITMF                 #Install Man In The Middle Framework
 ```
 
-### And coding style tests
+### Changing the DNS records - redirecting domains and IP addresses
 
-Explain what these tests test and why
+This option will allow you to edit the mitmf.conf file and change the IP addresses and domains you wish to DNS spoof:
 
+Select Option 2
 ```
-Give an example
+2 #> Change DNS records            #Change websites that the target will be redirected to
 ```
 
 ## Deployment
