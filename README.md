@@ -1,10 +1,14 @@
-# SpoofingMadeEasy
+SpoofingMadeEasy
+
 DNS Spoofing Made Easy with MITMF DNS Module
+
+NOTE
+I am NOT taking credit for the creation of MITMF. I have simply created this python script that uses the DNS module.
 
 
 DESCRIPTION
-WiFiBroot is built to provide clients all-in-one facility for cracking WiFi (WPA/WPA2) networks. It heavily depends on scapy, a well-featured packet manipulation library in Python. Almost every process within is dependent somehow on scapy layers and other functions except for operating the wireless interface on a different channel. That will be done via native linux command iwconfig for which you maybe need sudo privileges. It currently provides four independent working modes to deal with the target networks. Two of them are online cracking methods while the other runs in offline mode. The offline mode is provided to crack saved hashes from the first two modes. One is for deauthentication attack on wireless network and can also be used as a jamming handler. It can be run on a variety of linux platforms and atleast requires WN727N from tp-link to properly operate.
 
+SpoofingMadeEasy is a simple script that allows a user to utilise the DNS module of MITMF
 Installation:
 WiFiBroot heavily depends on scapy. So, you would need scapy installed. Almost, every other library would likely be installed on your system. Make sure the version you install for scapy should be <=2.4.0. Newer versions are likely to throw some unknown errors.
 
