@@ -1,9 +1,8 @@
-SpoofingMadeEasy
+__SpoofingMadeEasy
 
 DNS Spoofing Made Easy with MITMF DNS Module
 
 NOTE
-
 I am NOT taking credit for the creation of MITMF. I have simply created this python script that uses the DNS module.
 
 DESCRIPTION
